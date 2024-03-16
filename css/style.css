@@ -6,29 +6,3 @@ Medium green: #55c57a
 Dark green: #28b485
 
 */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-html {
-  font-size: 62.5%;
-}
-body {
-  font-family: "Lato", sans-serif;
-  font-size: 1.6rem;
-  color: #777;
-  padding: 30px;
-}
-header {
-  height: 95vh;
-  background-image: linear-gradient(
-      to bottom right,
-      rgba(126, 213, 111, 0.8),
-      rgb(40, 180, 133, 0.8)
-    ),
-    url(../img//hero.jpg);
-  background-size: cover;
-  background-position: center;
-  clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 0% 100%);
-}
