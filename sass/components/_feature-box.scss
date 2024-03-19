@@ -15,6 +15,7 @@
       rgba($color-primary-light, 1),
       rgba($color-primary-dark, 1)
     );
+    background-clip: content-box;
     -webkit-background-clip: text;
     color: transparent;
   }
